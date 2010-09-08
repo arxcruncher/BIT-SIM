@@ -1,80 +1,94 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="keywords" content="bittorrent, simulation, omnet++, P2P, peer-to-peer, bittorrent simulator, bittorrent simulation, BIT-SIM, Karel De Vogeleer, BTH">
+  <LINK href="stylesheet/content.css" rel="stylesheet" type="text/css">
+  <title>BIT-SIM | Blekinge Institute of Technology</title>
 
-	<title>bth-kdv/BIT-SIM @ GitHub</title>
-	
-	<style type="text/css">
-		body {
-  		margin-top: 1.0em;
-  		background-color: #5f6436;
-		  font-family: "Helvetica,Arial,FreeSans";
-  		color: #ffffff;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-		h1 { font-size: 3.8em; color: #a09bc9; margin-bottom: 3px; }
-		h1 .small { font-size: 0.4em; }
-		h1 a { text-decoration: none }
-		h2 { font-size: 1.5em; color: #a09bc9; }
-    h3 { text-align: center; color: #a09bc9; }
-    a { color: #a09bc9; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-		pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-	</style>
-	
 </head>
-
 <body>
-  <a href="http://github.com/bth-kdv/BIT-SIM"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-
-  <div id="container">
-
-    <div class="download">
-      <a href="http://github.com/bth-kdv/BIT-SIM/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/bth-kdv/BIT-SIM/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-    </div>
-
-    <h1><a href="http://github.com/bth-kdv/BIT-SIM">BIT-SIM</a>
-      <span class="small">by <a href="http://github.com/bth-kdv">bth-kdv</a></span></h1>
-
-    <div class="description">
-      BIT-SIM implements the Bittorrent protocol for OMNeT++. BIT-SIM allows you to simulate the behavior of Bittorrent and analyze the performance.
-    </div>
-
-    <h2>Authors</h2>
-<p>Karel De Vogeleer (kdv@bth.se)<br/><br/>      </p>
-<h2>Contact</h2>
-<p> (kdv@bth.se)<br/>      </p>
-
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/bth-kdv/BIT-SIM/zipball/master">zip</a> or
-      <a href="http://github.com/bth-kdv/BIT-SIM/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/bth-kdv/BIT-SIM</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/bth-kdv/BIT-SIM">bth-kdv/BIT-SIM</a>
-    </div>
-
-  </div>
-
-  
+<div id=header>
+	<div id=BTS_Logo></div>	
+	<div id=BTH_Logo></div>
+</div>
+<div id=content>
+	<div id=text_body>
+		<div class=text_header>What is BIT-SIM?</div>
+		<div class=text_body>
+			BIT-SIM is an open source Bittorrent simulator and implemented according the original <a href="http://www.bittorrent.org/" target="blank">bittorrent protocol specification</a> and simulates the application level behaviour of bittorrent. BIT-SIM uses the <a href="http://www.omnetpp.org" target="blank">OMNeT++</a> simulation framework to operate.<br><br>
+			BIT-SIM is being developed at the Dept. of Telecommunication Systems of <a href="http://www.bth.se" target="blank">Blekinge Institute of Technology</a>, Sweden.
+		</div>
+		<div class=text_header>Ongoing Research</div>
+		<div class=text_body>
+			The BTH media distribution lab engages in research on minimising inter-AS load, while maintaining high enough QoS to be able to deliver streaming HD video. The main techniques for this are various kinds of mesh-based load sharing and partial caching.
+		</div>
+		<div class=text_header>Download</div>
+		<div class=text_body>
+			<div class=text_sub_header>Version 1.1 (release date 09.05.04)</div>
+			The simulator can be downloaded in different compression formats. See the included INSTALL file for installation directives. BIT-SIM is a simulator software packet that is run on top of <a href="http://www.omnetpp.org" target="blank">OMNeT++</a>. Hence, <a href="http://www.omnetpp.org" target="blank">OMNeT++</a> must be installed prior. BIT-SIM is open source and distributed under the GNU licence.
+			<div id=comment_box>
+				<table width="591" border="0" cellspacing="1" cellpadding="3" align="center">
+                  <tr>
+                    <td width="16" align="center"><b>I</b></td>
+                    <td width="86" align="center"><b>Attachment</b></td>
+                    <td width="54" align="center"><b>Size</b></td>
+                    <td width="131" align="center"><b>Date</b></td>
+                    <td width="280" align="center"><b>Comment</b></td>
+                  </tr>
+                  <tr>
+                    <td><img width="16" alt="zip" src="images/zip.gif" height="16" border="0"></td>
+                    <td><div align="center"><a href="bit-sim-v11.zip">bit-sim-v11.zip</a></div></td>
+                    <td><div  align="center">228kb</div></td>
+                    <td><div align="center">4 May 2009 - 11:08</div></td>
+                    <td><div align="center">Complete BIT-SIM package. </div></td>
+                  </tr>
+                </table>
+			</div>
+			This version has successfully been tested on Mac OSX 10.5.6 and Linux 2.16.22 Ubuntu 8.10. Feedback on platform incompatibility problems is welcome.
+			<br><br>
+			<div class=text_sub_header>Version 1.0</div>
+			Not available.
+		</div>
+		<div class=text_header>More documentation</div>
+		<div class=text_body>
+			The <a href="API/">API of the BIT-SIM is available online</a> but can also be generated locally with <em>doxygen</em>. A Doxyfile is found in the main directory of every distribution of the simulator that will pass directives to doxygen.
+		</div>
+		<div class=text_header>Scientific Papers</div>
+		<div class=text_body>
+			<ol>
+				<li>"<em>Simulating BitTorrent</em>", De Vogeleer K., Erman D., Popescu A., 1<sup>st</sup> International Workshop on the Evaluation of Quality of Service through Simulation in the Future Internet (QoSim '08), Marseille, France, March 2008.</li>
+			</ol>
+			<div class=text_sub_header>Related Papers</div>
+			<ol>
+				<li> "<em>On Piece Selection for Streaming BitTorrent</em>", Erman D., De Vogeleer K., Popescu A., submitted to 5<sup>th</sup> Swedish National Computer Networking Workshop SNCNW2008, Karlskrona, Sweden, April 2008.</li>
+				<li>"<em>On BitTorrent Media Distribution</em>", Erman D., PhD thesis, March 2008.</li>
+				<li>"<em>Validating BitTorrent Models</em>", Erman D., Saavedra D., Sánchez José Á, Popescu A., accepted for publication special edition of "Telecommunication Systems", SpringerLink, September 2007.</li>
+				<li>"<em>Extending BitTorrent for Streaming Applications</em>", Erman D., 4<sup>th</sup> Euro-FGI Workshop on "New Trends in Modelling, Quantitative Methods and Measurements" (WP IA.7.1), Gent, Belgium, May/June 2007.</li>
+				<li>"<em>BitTorrent Session Characteristics and Models</em>", Erman, D., Ilie, D. and Popescu, A., accepted for publication in the special journal issue dedicated to "Performance Modelling and Evaluation of Heterogeneous Networks HET-NETs'05 and HET-NETs'06", to appear 2007.</li>
+				<li>"<em>BitTorrent Traffic Characteristics</em>", Erman D., Ilie D., Popescu A., International Multi-Conference on Computing in the Global Information Technology, ICCGI'06, Bucharest, Romania, August 2006.</li>
+				<li>"<em>BitTorrent Request Message Models</em>", Erman, D., Popescu A., 3<sup>rd</sup> Swedish National Computer Networking Workshop SNCNW 2005, Halmstad, Sweden, November 2005. (PDF)
+				<li>"<em>BitTorrent Measurements and Models</em>", Erman, D., Licentiate thesis, October 2005.</li>
+				<li>"<em>BitTorrent Session Characteristics and Models</em>", Erman, D., Ilie, D. and Popescu, A., HET-NETs '05, 3<sup>rd</sup> International Working Conference on Performance Modelling and Evaluation of Heterogeneous Networks, Ilkley, United Kingdom, July 2005.</li>
+				<li>"<em>Measurement and Analysis of BitTorrent Signaling Traffic</em>", Erman, D., Ilie, D., Popescu, A. and Nilsson, Arne A., 17<sup>th</sup> Nordic Teletraffic Seminar (NTS17), Oslo, Norway, August 2004.</li>
+			<ol>
+		</div>
+		<div class=text_header>Contact the BIT-SIM team</div>
+		<div class=text_body>
+			<div id=comment_box>
+				<big>Karel De Vogeleer, David Erman and Adrian Popescu</big><br>
+				Dept. of Telecommunication Systems<br>
+				School of Engineering<br>
+				Blekinge Institute of Technology<br>
+				Valhallavägen 1, 371-41 Karlskrona, Sweden
+			</div>
+	</div>
+</div>
+<div id=footer>
+	<div class=footer_text_style>
+		BIT-SIM - Department of Telecommunication Systems - Blekinge Institute of Technology - SE
+	</div>
+</div>
 </body>
 </html>
