@@ -1,0 +1,11 @@
+// What's new in version 1.2
+
+- Added a proper torrent decoding class, now all torrents can be loaded
+- Ported to version 4.0 of OMNeT++
+	major alterations besides the use of the OMNeT++ migration tools:
+	* Change of double to simtime_t to denote simulation time
+	* Using cPackets instead of cMessages
+	* Appended time definitions with units in the .ini file
+	* Moved cModule display function after the buildInside() function
+	* Added a packet queue as required by the new simulation kernel
+	* Added channel characteristics in the .ned file.
